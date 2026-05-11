@@ -25,8 +25,7 @@ class User extends Authenticatable implements FilamentUser
     public function canAccessPanel(Panel $panel): bool
     {
         // Example: Only users with a specific email domain can access
-        return str_ends_with($this->email, 'si_omar@rocketmail.com
-');
+        return str_ends_with($this->email, 'si_omar@rocketmail.com');
 
         // Example: Only users with an 'is_admin' flag in the database
         // return $this->is_admin;
