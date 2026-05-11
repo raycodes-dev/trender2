@@ -12,13 +12,25 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 #[Fillable(['name', 'email', 'password'])]
 #[Hidden(['password', 'two_factor_secret', 'two_factor_recovery_codes', 'remember_token'])]
-class User extends Authenticatable
+class User extends Authenticatable implements FilamentUser
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable, TwoFactorAuthenticatable;
 
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        // Example: Only users with a specific email domain can access
+        return str_ends_with($this->email, 'si_omar@rocketmail.com
+');
+
+        // Example: Only users with an 'is_admin' flag in the database
+        // return $this->is_admin;
+    }
     /**
      * Get the attributes that should be cast.
      *
