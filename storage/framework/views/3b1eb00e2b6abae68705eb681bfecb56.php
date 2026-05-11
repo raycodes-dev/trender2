@@ -8,13 +8,15 @@ use Livewire\Component;
     <section class="relative min-h-screen flex items-center hero-gradient grid-bg pt-20">
         <!-- Decorative orbs -->
         <div class="absolute top-1/4 left-10 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl pulse-glow"></div>
-        <div class="absolute bottom-1/4 right-10 w-96 h-96 bg-accent-500/8 rounded-full blur-3xl pulse-glow" style="animation-delay: 1.5s;"></div>
+        <div class="absolute bottom-1/4 right-10 w-96 h-96 bg-accent-500/8 rounded-full blur-3xl pulse-glow"
+             style="animation-delay: 1.5s;"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                 <!-- Left Content -->
                 <div class="text-center lg:text-left">
-                    <div class="animate-slide-up stagger-1 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6">
+                    <div
+                        class="animate-slide-up stagger-1 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6">
                         <i data-lucide="sparkles" class="w-4 h-4 text-primary-400"></i>
                         <span class="text-sm font-medium text-primary-300">Simple Trenders</span>
                     </div>
@@ -25,15 +27,19 @@ use Livewire\Component;
                     </h1>
 
                     <p class="animate-slide-up stagger-3 text-lg md:text-xl text-gray-400 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-                        From AI-generated videos to stunning designs and thumbnails — we bring your vision to life with cutting-edge technology and creative expertise.
+                        From AI-generated videos to stunning designs and thumbnails — we bring your vision to life with
+                        cutting-edge technology and creative expertise.
                     </p>
 
-                    <div class="animate-slide-up stagger-4 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-10">
-                        <a href="#contact" class="btn-primary px-8 py-4 rounded-xl text-base font-semibold text-white flex items-center gap-2 w-full sm:w-auto justify-center">
+                    <div
+                        class="animate-slide-up stagger-4 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-10">
+                        <a href="#contact"
+                           class="btn-primary px-8 py-4 rounded-xl text-base font-semibold text-white flex items-center gap-2 w-full sm:w-auto justify-center">
                             Get Started
                             <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
-                        <a href="#showcase" class="btn-secondary px-8 py-4 rounded-xl text-base font-semibold text-gray-300 flex items-center gap-2 w-full sm:w-auto justify-center">
+                        <a href="#showcase"
+                           class="btn-secondary px-8 py-4 rounded-xl text-base font-semibold text-gray-300 flex items-center gap-2 w-full sm:w-auto justify-center">
                             <i data-lucide="play-circle" class="w-5 h-5"></i>
                             Watch Demo
                         </a>
@@ -42,11 +48,18 @@ use Livewire\Component;
                     <!-- Social proof -->
                     <div class="animate-slide-up stagger-5 flex items-center gap-4 justify-center lg:justify-start">
                         <div class="flex -space-x-3">
-                            <img src="https://static.photos/people/200x200/1" class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
-                            <img src="https://static.photos/people/200x200/2" class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
-                            <img src="https://static.photos/people/200x200/3" class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
-                            <img src="https://static.photos/people/200x200/4" class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
-                            <div class="w-10 h-10 rounded-full border-2 border-gray-950 bg-primary-600 flex items-center justify-center text-xs font-bold">2K+</div>
+                            <img src="https://static.photos/people/200x200/1"
+                                 class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
+                            <img src="https://static.photos/people/200x200/2"
+                                 class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
+                            <img src="https://static.photos/people/200x200/3"
+                                 class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
+                            <img src="https://static.photos/people/200x200/4"
+                                 class="w-10 h-10 rounded-full border-2 border-gray-950 object-cover" alt="User">
+                            <div
+                                class="w-10 h-10 rounded-full border-2 border-gray-950 bg-primary-600 flex items-center justify-center text-xs font-bold">
+                                2K+
+                            </div>
                         </div>
                         <div>
                             <div class="flex items-center gap-1">
@@ -56,19 +69,24 @@ use Livewire\Component;
                                 <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                                 <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                             </div>
-                            <p class="text-sm text-gray-500">Trusted by <p class="stat-number text-3xl md:text-4xl font-bold gradient-text" data-target="1300">0</p>+ clients</p>
+                            <p class="text-sm text-gray-500">Trusted by
+                            <p class="stat-number text-3xl md:text-4xl font-bold gradient-text" data-target="1300">0</p>
+                            + clients</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Right Visual -->
                 <div class="relative animate-slide-up stagger-5">
-                    <div class="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-primary-500/10">
-                        <img src="https://static.photos/technology/1200x630/42" alt="AI Video Editing Interface" class="w-full object-cover">
+                    <div
+                        class="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-primary-500/10">
+                        <img src="https://static.photos/technology/1200x630/42" alt="AI Video Editing Interface"
+                             class="w-full object-cover">
                         <!-- Overlay UI mockup -->
                         <div class="absolute inset-0 video-card-overlay flex items-end p-6">
                             <div class="flex items-center gap-3">
-                                <button class="w-14 h-14 rounded-full bg-white/20 nav-blur flex items-center justify-center hover:bg-white/30 transition-colors">
+                                <button
+                                    class="w-14 h-14 rounded-full bg-white/20 nav-blur flex items-center justify-center hover:bg-white/30 transition-colors">
                                     <i data-lucide="play" class="w-6 h-6 text-white fill-white ml-1"></i>
                                 </button>
                                 <div>
@@ -80,7 +98,8 @@ use Livewire\Component;
                     </div>
 
                     <!-- Floating cards -->
-                    <div class="absolute -top-4 -right-4 float-animation bg-gray-900/90 nav-blur border border-white/10 rounded-xl p-4 flex items-center gap-3 shadow-xl">
+                    <div
+                        class="absolute -top-4 -right-4 float-animation bg-gray-900/90 nav-blur border border-white/10 rounded-xl p-4 flex items-center gap-3 shadow-xl">
                         <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
                             <i data-lucide="check-circle" class="w-5 h-5 text-green-400"></i>
                         </div>
@@ -90,7 +109,8 @@ use Livewire\Component;
                         </div>
                     </div>
 
-                    <div class="absolute -bottom-4 -left-4 float-animation-delay bg-gray-900/90 nav-blur border border-white/10 rounded-xl p-4 flex items-center gap-3 shadow-xl">
+                    <div
+                        class="absolute -bottom-4 -left-4 float-animation-delay bg-gray-900/90 nav-blur border border-white/10 rounded-xl p-4 flex items-center gap-3 shadow-xl">
                         <div class="w-10 h-10 rounded-lg bg-primary-500/20 flex items-center justify-center">
                             <i data-lucide="wand-2" class="w-5 h-5 text-primary-400"></i>
                         </div>
@@ -105,7 +125,7 @@ use Livewire\Component;
     </section>
 
     
-        <?php
+    <?php
 $__split = function ($name, $params = []) {
     return [$name, $params];
 };
@@ -135,7 +155,8 @@ unset($__split);
     <section id="features" class="relative py-20 md:py-32 grid-bg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
                     <i data-lucide="zap" class="w-4 h-4 text-primary-400"></i>
                     <span class="text-sm font-medium text-primary-300">Powerful Features</span>
                 </div>
@@ -144,63 +165,82 @@ unset($__split);
                     <span class="gradient-text"> Creative Solutions</span>
                 </h2>
                 <p class="text-lg text-gray-400 max-w-2xl mx-auto">
-                    From AI-generated videos to stunning designs — we deliver creative solutions that make your brand stand out.
+                    From AI-generated videos to stunning designs — we deliver creative solutions that make your brand
+                    stand out.
                 </p>
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Feature 1 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-primary-500/10 flex items-center justify-center mb-5 group-hover:bg-primary-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-primary-500/10 flex items-center justify-center mb-5 group-hover:bg-primary-500/20 transition-colors">
                         <i data-lucide="video" class="w-6 h-6 text-primary-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">AI Video</h3>
-                    <p class="text-gray-400 leading-relaxed">Generate professional videos from text prompts or raw footage using advanced AI models. Perfect for ads, promos, and social content.</p>
+                    <p class="text-gray-400 leading-relaxed">Generate professional videos from text prompts or raw
+                        footage using advanced AI models. Perfect for ads, promos, and social content.</p>
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-accent-500/10 flex items-center justify-center mb-5 group-hover:bg-accent-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-accent-500/10 flex items-center justify-center mb-5 group-hover:bg-accent-500/20 transition-colors">
                         <i data-lucide="music" class="w-6 h-6 text-accent-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">AI Audio Track</h3>
-                    <p class="text-gray-400 leading-relaxed">AI-generated music, voiceovers, and sound effects tailored to your video's mood and pace. 50+ languages supported.</p>
+                    <p class="text-gray-400 leading-relaxed">AI-generated music, voiceovers, and sound effects tailored
+                        to your video's mood and pace. 50+ languages supported.</p>
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-5 group-hover:bg-blue-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-5 group-hover:bg-blue-500/20 transition-colors">
                         <i data-lucide="megaphone" class="w-6 h-6 text-blue-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Marketing Campaign</h3>
-                    <p class="text-gray-400 leading-relaxed">End-to-end campaign creation — from strategy to video assets. We craft campaigns that convert and resonate with your audience.</p>
+                    <p class="text-gray-400 leading-relaxed">End-to-end campaign creation — from strategy to video
+                        assets. We craft campaigns that convert and resonate with your audience.</p>
                 </div>
 
                 <!-- Feature 4 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-5 group-hover:bg-green-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-5 group-hover:bg-green-500/20 transition-colors">
                         <i data-lucide="palette" class="w-6 h-6 text-green-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Designs</h3>
-                    <p class="text-gray-400 leading-relaxed">Eye-catching graphic designs for social media, branding, and marketing. From logos to full brand identities crafted with precision.</p>
+                    <p class="text-gray-400 leading-relaxed">Eye-catching graphic designs for social media, branding,
+                        and marketing. From logos to full brand identities crafted with precision.</p>
                 </div>
 
                 <!-- Feature 5 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-5 group-hover:bg-orange-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center mb-5 group-hover:bg-orange-500/20 transition-colors">
                         <i data-lucide="film" class="w-6 h-6 text-orange-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Video Editing</h3>
-                    <p class="text-gray-400 leading-relaxed">Professional editing with smooth transitions, color grading, and effects. Our editors polish every frame to perfection.</p>
+                    <p class="text-gray-400 leading-relaxed">Professional editing with smooth transitions, color
+                        grading, and effects. Our editors polish every frame to perfection.</p>
                 </div>
 
                 <!-- Feature 6 -->
-                <div class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
-                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-5 group-hover:bg-cyan-500/20 transition-colors">
+                <div
+                    class="card-glow group bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-primary-500/30 transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-5 group-hover:bg-cyan-500/20 transition-colors">
                         <i data-lucide="image" class="w-6 h-6 text-cyan-400"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-3">Thumbnail Art</h3>
-                    <p class="text-gray-400 leading-relaxed">Click-worthy thumbnails that boost your CTR. Custom-designed artwork that stands out and drives views on any platform.</p>
+                    <p class="text-gray-400 leading-relaxed">Click-worthy thumbnails that boost your CTR.
+                        Custom-designed artwork that stands out and drives views on any platform.</p>
                 </div>
             </div>
         </div>
@@ -210,7 +250,8 @@ unset($__split);
     <section id="contact" class="relative py-20 md:py-32 bg-gray-900/30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-500/10 border border-accent-500/20 mb-4">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-500/10 border border-accent-500/20 mb-4">
                     <i data-lucide="message-circle" class="w-4 h-4 text-accent-400"></i>
                     <span class="text-sm font-medium text-accent-300">Talk To Us</span>
                 </div>
@@ -225,10 +266,12 @@ unset($__split);
 
             <div class="max-w-3xl mx-auto">
                 <!-- Chat Container -->
-                <div class="bg-gray-900/80 border border-white/10 rounded-2xl overflow-hidden shadow-2xl shadow-primary-500/5">
+                <div
+                    class="bg-gray-900/80 border border-white/10 rounded-2xl overflow-hidden shadow-2xl shadow-primary-500/5">
                     <!-- Chat Header -->
                     <div class="px-6 py-4 border-b border-white/5 flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
+                        <div
+                            class="w-10 h-10 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
                             <i data-lucide="bot" class="w-5 h-5 text-white"></i>
                         </div>
                         <div>
@@ -244,11 +287,14 @@ unset($__split);
                     <div id="chatMessages" class="h-96 overflow-y-auto p-6 space-y-4 scroll-smooth">
                         <!-- Welcome message -->
                         <div class="flex items-start gap-3">
-                            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shrink-0">
+                            <div
+                                class="w-8 h-8 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shrink-0">
                                 <i data-lucide="bot" class="w-4 h-4 text-white"></i>
                             </div>
                             <div class="bg-gray-800/80 rounded-2xl rounded-tl-sm px-4 py-3 max-w-[80%]">
-                                <p class="text-sm text-gray-200">Hey there! 👋 Welcome to T-Render. Tell us about your project — what kind of video, design, or creative work do you need? One of our developers will get back to you right here.</p>
+                                <p class="text-sm text-gray-200">Hey there! 👋 Welcome to T-Render. Tell us about your
+                                    project — what kind of video, design, or creative work do you need? One of our
+                                    developers will get back to you right here.</p>
                                 <span class="text-xs text-gray-600 mt-1 block">Just now</span>
                             </div>
                         </div>
@@ -257,8 +303,9 @@ unset($__split);
                     <!-- Chat Input -->
                     <div class="px-6 py-4 border-t border-white/5">
                         <div class="flex items-center gap-3">
-
-                            <button id="openLeadModal" class="flex-1 justify-center text-center btn-primary px-5 py-3 rounded-xl text-sm font-semibold text-white flex items-center gap-2 shrink-0">
+                            
+                            <button id="openLeadModal"
+                                    class="flex-1 justify-center text-center btn-primary px-5 py-3 rounded-xl text-sm font-semibold text-white flex items-center gap-2 shrink-0">
                                 <i data-lucide="send" class="w-4 h-4"></i>
                                 <span class="hidden sm:inline  text-center">Start</span>
                             </button>
@@ -273,14 +320,14 @@ unset($__split);
         class="hidden text-black fixed inset-0 bg-black/60 flex items-center justify-center z-50"
     >
         <div class="bg-white p-6 rounded-2xl w-full max-w-md">
-        <div  class="flex flex-row justify-items-center  justify-between mb-4">
-            <h2 class="text-2xl font-bold ">
-                Before we chat
-            </h2>
-            <button id="closeChatModal">
-                x
-            </button>
-        </div>
+            <div class="flex flex-row justify-items-center  justify-between mb-4">
+                <h2 class="text-2xl font-bold ">
+                    Before we chat
+                </h2>
+                <button id="closeChatModal">
+                    x
+                </button>
+            </div>
 
             <input
                 type="text"
@@ -309,7 +356,8 @@ unset($__split);
     <section id="showcase" class="relative py-20 md:py-32 grid-bg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
                     <i data-lucide="play-circle" class="w-4 h-4 text-primary-400"></i>
                     <span class="text-sm font-medium text-primary-300">Our Work</span>
                 </div>
@@ -324,13 +372,18 @@ unset($__split);
 
             <!-- Filter tabs -->
             <div class="flex flex-wrap justify-center gap-2 mb-10">
-                <button class="filter-btn active px-5 py-2 rounded-lg text-sm font-medium bg-primary-500/10 text-primary-300 border border-primary-500/20 transition-all" data-filter="all">All</button>
+                <button
+                    class="filter-btn active px-5 py-2 rounded-lg text-sm font-medium bg-primary-500/10 text-primary-300 border border-primary-500/20 transition-all"
+                    data-filter="all">All
+                </button>
                 <?php
                     $uniqueTypes = collect($work)->pluck('type')->unique();
                 ?>
                 <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if BLOCK]><![endif]--><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::openLoop(); ?><?php endif; ?><?php $__currentLoopData = $uniqueTypes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $type): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::startLoopIteration(); ?><?php endif; ?>
 
-                    <button class="filter-btn px-5 py-2 rounded-lg text-sm font-medium bg-gray-900 text-gray-400 border border-white/5 hover:text-white transition-all" data-filter="<?php echo e($type); ?>">
+                    <button
+                        class="filter-btn px-5 py-2 rounded-lg text-sm font-medium bg-gray-900 text-gray-400 border border-white/5 hover:text-white transition-all"
+                        data-filter="<?php echo e($type); ?>">
                         <?php echo e(ucfirst($type)); ?></button>
                 <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::endLoop(); ?><?php endif; ?><?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::closeLoop(); ?><?php endif; ?>
             </div>
@@ -338,7 +391,7 @@ unset($__split);
             <div id="showcaseGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if BLOCK]><![endif]--><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::openLoop(); ?><?php endif; ?><?php $__currentLoopData = $work; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $w): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::startLoopIteration(); ?><?php endif; ?>
 
-                <!-- Card 1 -->
+                    <!-- Card 1 -->
                     <div
                         class="showcase-card group relative rounded-2xl overflow-hidden border border-white/5 hover:border-primary-500/30 transition-all duration-300 cursor-pointer"
 
@@ -350,45 +403,48 @@ unset($__split);
 
                         data-category="<?php echo e($w->type); ?>"
                     >
-                    <img src="<?php echo e(Storage::url($w->image)); ?>" alt="AI Generated Promo" class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
-                    <div class="absolute inset-0 video-card-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                        <div class="w-16 h-16 rounded-full bg-white/20 nav-blur flex items-center justify-center">
-                            <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-1"></i>
+                        <img src="<?php echo e(Storage::url($w->image)); ?>" alt="AI Generated Promo"
+                             class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div
+                            class="absolute inset-0 video-card-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="w-16 h-16 rounded-full bg-white/20 nav-blur flex items-center justify-center">
+                                <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-1"></i>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/80 to-transparent">
+                            <span
+                                class="text-xs font-medium text-primary-300 bg-primary-500/20 px-2 py-1 rounded"><?php echo e(ucfirst($w->type)); ?></span>
+                            <h4 class="text-lg font-semibold mt-2"><?php echo e($w->name); ?></h4>
+                            
+                            <p class="text-sm text-gray-400"><?php echo e(Carbon\Carbon::parse($w->uploaded_at)->format('l, F jS, Y')); ?></p>
                         </div>
                     </div>
-                    <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/80 to-transparent">
-                        <span class="text-xs font-medium text-primary-300 bg-primary-500/20 px-2 py-1 rounded"><?php echo e(ucfirst($w->type)); ?></span>
-                        <h4 class="text-lg font-semibold mt-2"><?php echo e($w->name); ?></h4>
-
-                        <p class="text-sm text-gray-400"><?php echo e(Carbon\Carbon::parse($w->uploaded_at)->format('l, F jS, Y')); ?></p>
-                    </div>
-                </div>
 
                 <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::endLoop(); ?><?php endif; ?><?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php \Livewire\Features\SupportCompiledWireKeys\SupportCompiledWireKeys::closeLoop(); ?><?php endif; ?>
-                    <div
-                        id="videoModal"
-                        class="fixed inset-0 bg-black/80 z-50 hidden items-center justify-center p-4"
-                    >
-                        <div class="relative w-full max-w-5xl">
+                <div
+                    id="videoModal"
+                    class="fixed inset-0 bg-black/80 z-50 hidden items-center justify-center p-4"
+                >
+                    <div class="relative w-full max-w-5xl">
 
-                            <button
-                                onclick="closeVideoModal()"
-                                class="absolute -top-12 right-0 text-white text-3xl"
-                            >
-                                ✕
-                            </button>
+                        <button
+                            onclick="closeVideoModal()"
+                            class="absolute -top-12 right-0 text-white text-3xl"
+                        >
+                            ✕
+                        </button>
 
-                            <video
-                                id="modalVideo"
-                                class="w-full rounded-2xl"
-                                controls
-                                autoplay
-                            >
-                                <source id="modalVideoSource" src="" type="video/mp4">
-                            </video>
+                        <video
+                            id="modalVideo"
+                            class="w-full rounded-2xl"
+                            controls
+                            autoplay
+                        >
+                            <source id="modalVideoSource" src="" type="video/mp4">
+                        </video>
 
-                        </div>
                     </div>
+                </div>
             </div>
         </div>
     </section>
@@ -397,7 +453,8 @@ unset($__split);
     <section id="team" class="relative py-20 md:py-32 bg-gray-900/30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-4">
                     <i data-lucide="users" class="w-4 h-4 text-primary-400"></i>
                     <span class="text-sm font-medium text-primary-300">Meet The Team</span>
                 </div>
@@ -423,23 +480,27 @@ unset($__split);
                             "path"  => $v->video_path ? Storage::url($v->video_path) : null
                         ]);
                     ?>
-                    <div class="team-card group bg-gray-900/50 border border-white/5 rounded-2xl p-6 hover:border-primary-500/30 transition-all duration-300 cursor-pointer text-center"
-                         data-name="<?php echo e($user->name); ?>"
-                         data-role="<?php echo e($team->role); ?>"
-                         data-bio="<?php echo e($team->biography); ?>"
-                         data-image="<?php echo e(Storage::url($team->profile_picture)); ?>"
-                         data-skills='<?php echo json_encode($team->short_text ?? [], 15, 512) ?>'
-                         data-tags='<?php echo e($team->tags); ?>'
-                         data-experience='<?php echo json_encode($team->experience ?? [], 15, 512) ?>'
-                         data-works='<?php echo e($worksData->toJson()); ?>'
-                         data-member="<?php echo e(App\Models\User::where('id', $team->user_id)->get()[0]['name']); ?>">
-                        <div class="relative mx-auto w-28 h-28 rounded-full overflow-hidden border-2 border-white/10 group-hover:border-primary-500/40 transition-all mb-5">
-                            <img src="<?php echo e('storage/'.$team->profile_picture); ?>" alt="Omar Sherif" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div
+                        class="team-card group bg-gray-900/50 border border-white/5 rounded-2xl p-6 hover:border-primary-500/30 transition-all duration-300 cursor-pointer text-center"
+                        data-name="<?php echo e($user->name); ?>"
+                        data-role="<?php echo e($team->role); ?>"
+                        data-bio="<?php echo e($team->biography); ?>"
+                        data-image="<?php echo e(Storage::url($team->profile_picture)); ?>"
+                        data-skills='<?php echo json_encode($team->short_text ?? [], 15, 512) ?>'
+                        data-tags='<?php echo e($team->tags); ?>'
+                        data-experience='<?php echo json_encode($team->experience ?? [], 15, 512) ?>'
+                        data-works='<?php echo e($worksData->toJson()); ?>'
+                        data-member="<?php echo e(App\Models\User::where('id', $team->user_id)->get()[0]['name']); ?>">
+                        <div
+                            class="relative mx-auto w-28 h-28 rounded-full overflow-hidden border-2 border-white/10 group-hover:border-primary-500/40 transition-all mb-5">
+                            <img src="<?php echo e('storage/'.$team->profile_picture); ?>" alt="Omar Sherif"
+                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <h3 class="text-lg font-semibold mb-1"><?php echo e(App\Models\User::where('id', $team->user_id)->get()[0]['name']); ?></h3>
                         <p class="text-sm text-primary-400 font-medium mb-3"><?php echo e($team->role); ?></p>
                         <p class="text-xs text-gray-500 leading-relaxed"><?php echo e(Str::limit($team->biography, 69, '...')); ?></p>
-                        <div class="mt-4 flex items-center justify-center gap-1 text-primary-400 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div
+                            class="mt-4 flex items-center justify-center gap-1 text-primary-400 text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                             <span>View Profile</span>
                             <i data-lucide="arrow-right" class="w-3 h-3"></i>
                         </div>
@@ -453,8 +514,10 @@ unset($__split);
     <!-- Video Player Modal -->
     <div id="videoPlayerModal" class="fixed inset-0 z-[80] hidden items-center justify-center p-4">
         <div onclick="closeVideoPlayer()" class="absolute inset-0 bg-black/90 nav-blur"></div>
-        <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-            <button onclick="closeVideoPlayer()" class="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black rounded-full text-white transition-all">
+        <div
+            class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+            <button onclick="closeVideoPlayer()"
+                    class="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black rounded-full text-white transition-all">
                 <i data-lucide="x" class="w-6 h-6"></i>
             </button>
             <video id="mainVideoPlayer" controls class="w-full h-full">
@@ -467,8 +530,10 @@ unset($__split);
         <!-- Overlay -->
         <div id="teamModalOverlay" class="absolute inset-0 bg-black/70 nav-blur"></div>
         <!-- Modal Content -->
-        <div class="relative bg-gray-900 border border-white/10 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
-            <button id="closeTeamModal" class="absolute top-4 right-4 p-2 rounded-lg bg-gray-800 border border-white/10 text-gray-400 hover:text-white hover:border-white/20 transition-all z-10">
+        <div
+            class="relative bg-gray-900 border border-white/10 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
+            <button id="closeTeamModal"
+                    class="absolute top-4 right-4 p-2 rounded-lg bg-gray-800 border border-white/10 text-gray-400 hover:text-white hover:border-white/20 transition-all z-10">
                 <i data-lucide="x" class="w-5 h-5"></i>
             </button>
             <div id="teamModalContent" class="p-8">
@@ -481,7 +546,8 @@ unset($__split);
     <section id="testimonials" class="relative py-20 md:py-32 grid-bg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-500/10 border border-accent-500/20 mb-4">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-500/10 border border-accent-500/20 mb-4">
                     <i data-lucide="heart" class="w-4 h-4 text-accent-400"></i>
                     <span class="text-sm font-medium text-accent-300">Testimonials</span>
                 </div>
@@ -493,7 +559,8 @@ unset($__split);
 
             <div class="grid md:grid-cols-3 gap-6">
                 <!-- Testimonial 1 -->
-                <div class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
+                <div
+                    class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
                     <div class="flex items-center gap-1 mb-4">
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
@@ -501,9 +568,12 @@ unset($__split);
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                     </div>
-                    <p class="text-gray-300 leading-relaxed mb-6">"FrameAI completely transformed my content workflow. I used to spend 8 hours editing a single video — now I create 5 in one afternoon. The AI quality is mind-blowing."</p>
+                    <p class="text-gray-300 leading-relaxed mb-6">"FrameAI completely transformed my content workflow. I
+                        used to spend 8 hours editing a single video — now I create 5 in one afternoon. The AI quality
+                        is mind-blowing."</p>
                     <div class="flex items-center gap-3">
-                        <img src="https://static.photos/people/200x200/11" class="w-11 h-11 rounded-full object-cover" alt="Sarah">
+                        <img src="https://static.photos/people/200x200/11" class="w-11 h-11 rounded-full object-cover"
+                             alt="Sarah">
                         <div>
                             <p class="font-semibold text-sm">Sarah Mitchell</p>
                             <p class="text-xs text-gray-500">YouTube Creator, 500K subs</p>
@@ -512,7 +582,8 @@ unset($__split);
                 </div>
 
                 <!-- Testimonial 2 -->
-                <div class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
+                <div
+                    class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
                     <div class="flex items-center gap-1 mb-4">
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
@@ -520,9 +591,12 @@ unset($__split);
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                     </div>
-                    <p class="text-gray-300 leading-relaxed mb-6">"As a marketing agency, we need fast turnaround. FrameAI lets us produce stunning brand videos for clients in hours instead of days. Our profit margins went up 40%."</p>
+                    <p class="text-gray-300 leading-relaxed mb-6">"As a marketing agency, we need fast turnaround.
+                        FrameAI lets us produce stunning brand videos for clients in hours instead of days. Our profit
+                        margins went up 40%."</p>
                     <div class="flex items-center gap-3">
-                        <img src="https://static.photos/people/200x200/22" class="w-11 h-11 rounded-full object-cover" alt="Marcus">
+                        <img src="https://static.photos/people/200x200/22" class="w-11 h-11 rounded-full object-cover"
+                             alt="Marcus">
                         <div>
                             <p class="font-semibold text-sm">Marcus Chen</p>
                             <p class="text-xs text-gray-500">CEO, BrightMedia Agency</p>
@@ -531,7 +605,8 @@ unset($__split);
                 </div>
 
                 <!-- Testimonial 3 -->
-                <div class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
+                <div
+                    class="bg-gray-900/50 border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-all duration-300">
                     <div class="flex items-center gap-1 mb-4">
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
@@ -539,9 +614,12 @@ unset($__split);
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                         <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
                     </div>
-                    <p class="text-gray-300 leading-relaxed mb-6">"The text-to-video feature is pure magic. I type a description and get a professional video in minutes. It's like having an entire production team in my laptop."</p>
+                    <p class="text-gray-300 leading-relaxed mb-6">"The text-to-video feature is pure magic. I type a
+                        description and get a professional video in minutes. It's like having an entire production team
+                        in my laptop."</p>
                     <div class="flex items-center gap-3">
-                        <img src="https://static.photos/people/200x200/33" class="w-11 h-11 rounded-full object-cover" alt="Priya">
+                        <img src="https://static.photos/people/200x200/33" class="w-11 h-11 rounded-full object-cover"
+                             alt="Priya">
                         <div>
                             <p class="font-semibold text-sm">Priya Sharma</p>
                             <p class="text-xs text-gray-500">Social Media Manager</p>
@@ -556,10 +634,12 @@ unset($__split);
     <section class="relative py-20 md:py-32 overflow-hidden">
         <!-- Background -->
         <div class="absolute inset-0 bg-gradient-to-br from-primary-900/40 via-gray-950 to-accent-900/30"></div>
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary-500/10 rounded-full blur-3xl"></div>
+        <div
+            class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary-500/10 rounded-full blur-3xl"></div>
 
         <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6">
                 <i data-lucide="sparkles" class="w-4 h-4 text-primary-400"></i>
                 <span class="text-sm font-medium text-primary-300">Ready to Create?</span>
             </div>
@@ -568,14 +648,17 @@ unset($__split);
                 <span class="gradient-text"> T-Render</span>
             </h2>
             <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
-                Join 2,000+ clients already using T-Render to produce professional videos and designs. Get in touch with our team today.
+                Join 2,000+ clients already using T-Render to produce professional videos and designs. Get in touch with
+                our team today.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#contact" class="btn-primary px-10 py-4 rounded-xl text-lg font-semibold text-white flex items-center gap-2">
+                <a href="#contact"
+                   class="btn-primary px-10 py-4 rounded-xl text-lg font-semibold text-white flex items-center gap-2">
                     Get Started
                     <i data-lucide="arrow-right" class="w-5 h-5"></i>
                 </a>
-                <a href="#team" class="px-10 py-4 rounded-xl text-lg font-semibold text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                <a href="#team"
+                   class="px-10 py-4 rounded-xl text-lg font-semibold text-gray-400 hover:text-white transition-colors flex items-center gap-2">
                     <i data-lucide="users" class="w-5 h-5"></i>
                     Meet the Team
                 </a>
@@ -606,7 +689,7 @@ unset($__split);
 
     });
 
-    window.openVideoModal = function(videoUrl) {
+    window.openVideoModal = function (videoUrl) {
 
         const modal = document.getElementById('videoModal');
         const video = document.getElementById('modalVideo');
@@ -620,7 +703,7 @@ unset($__split);
         modal.classList.add('flex');
     }
 
-    window.closeVideoModal = function() {
+    window.closeVideoModal = function () {
 
         const modal = document.getElementById('videoModal');
         const video = document.getElementById('modalVideo');
@@ -732,6 +815,7 @@ unset($__split);
             lucide.createIcons();
         }
     }
+
     function playLocalVideo(videoUrl) {
         const videoModal = document.getElementById('videoPlayerModal');
         const player = document.getElementById('mainVideoPlayer');
@@ -753,6 +837,7 @@ unset($__split);
         videoModal.classList.add('hidden');
         videoModal.classList.remove('flex');
     }
+
     function closeTeamModalFn() {
         teamModal.classList.add('hidden');
         teamModal.classList.remove('flex');
@@ -773,7 +858,7 @@ unset($__split);
         });
     });
 
-// ===================== Chat Modal ======================
+    // ===================== Chat Modal ======================
 
     const modal = document.getElementById('leadModal');
     document
@@ -809,7 +894,7 @@ unset($__split);
 
         chatModal.classList.add('hidden');
         // Step 1 – set visitor details (works ✅)
-        Tawk_API.setAttributes({ name, email }, function (error) {
+        Tawk_API.setAttributes({name, email}, function (error) {
             if (error) {
                 console.error('setAttributes failed', error);
                 return;
@@ -817,7 +902,6 @@ unset($__split);
 
             // Step 2 – open the widget (the pre‑chat form will show name‑email)
             Tawk_API.maximize();
-
 
 
             // Step 4 – wait until the widget is ready, then send the message
